@@ -34,21 +34,24 @@ $ git clone https://github.com/lemoncyb/VISPR-online.git
 ```
 
 ### Step2:
-Install Python 3. Please refer to [Python websit](https://www.python.org/downloads/).
-
-### Step3:
-Install related Python dependencies.
-
+To install VISPR-online you have to use the Python 3 variant of the Miniconda Python distribution (http://conda.pydata.org/miniconda.html). VISPR-online cannot be installed on the Python 2 variant of Miniconda. When installing Miniconda, make sure that you answer yes to this question:
 ```
-$ pip install flask
-$ pip install pymongo
-$ pip install PyYAML
-$ pip install numpy
-$ pip install pandas==0.19.1
-$ pip install sklearn
+Do you wish the installer to prepend the Miniconda3 install location to PATH ...? [yes|no]
 ```
+Also, make sure that you do not have set the PYTHONPATH environment variable, because it will interfere with the Miniconda setup.
+You can create an isolated software environment for vispr-online by executing using the terminal or an Anaconda Prompt:
+```
+cd VISPR-online
+conda env create -f environment.yml
+```
+Then, activate the environment by running
+```
+conda activate vispr-online
+```
+conda activate and conda deactivate only work on conda 4.6 and later versions. For conda versions prior to 4.6, run:
+Windows: activate or deactivate
+Linux and macOS: source activate or source deactivate
 
-<a name="Demo"></a>
 III. Demo test
 ----
 ### Step1:
@@ -57,6 +60,9 @@ Launch VISPR-online server.
 Enter the top directory of VISPR-online. Execute the following script:
 
 ```
+Windows:
+$python ./run.py
+Linux and macOS: 
 $ ./run.py
 ```
 
