@@ -49,7 +49,9 @@ Then, activate the environment by running
 conda activate vispr-online
 ```
 conda activate and conda deactivate only work on conda 4.6 and later versions. For conda versions prior to 4.6, run:
+
 Windows: activate or deactivate
+
 Linux and macOS: source activate or source deactivate
 
 III. Demo test
@@ -59,10 +61,12 @@ Launch VISPR-online server.
 
 Enter the top directory of VISPR-online. Execute the following script:
 
-```
 Windows:
+```
 $python ./run.py
+```
 Linux and macOS: 
+```
 $ ./run.py
 ```
 
