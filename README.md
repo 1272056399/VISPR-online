@@ -54,6 +54,8 @@ Windows: activate or deactivate
 
 Linux and macOS: source activate or source deactivate
 
+For detailed manual of miniconda, please refer to https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
 III. Demo test
 ----
 ### Step1:
