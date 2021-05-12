@@ -39,6 +39,7 @@ To install VISPR-online you have to use the Python 3 variant of the Miniconda Py
 Do you wish the installer to prepend the Miniconda3 install location to PATH ...? [yes|no]
 ```
 Also, make sure that you do not have set the PYTHONPATH environment variable, because it will interfere with the Miniconda setup.
+
 You can create an isolated software environment for vispr-online by executing using the terminal or an Anaconda Prompt:
 ```
 $cd VISPR-online
