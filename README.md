@@ -51,9 +51,15 @@ $conda activate vispr-online
 ```
 conda activate and conda deactivate only work on conda 4.6 and later versions. For conda versions prior to 4.6, run:
 
-Windows: activate or deactivate
+Windows: 
+```
+$activate vispr-online
+```
 
-Linux and macOS: source activate or source deactivate
+Linux and macOS: 
+```
+$source activate vispr-online
+```
 
 For detailed manual of miniconda, please refer to https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
