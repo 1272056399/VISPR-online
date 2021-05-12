@@ -41,12 +41,12 @@ Do you wish the installer to prepend the Miniconda3 install location to PATH ...
 Also, make sure that you do not have set the PYTHONPATH environment variable, because it will interfere with the Miniconda setup.
 You can create an isolated software environment for vispr-online by executing using the terminal or an Anaconda Prompt:
 ```
-cd VISPR-online
-conda env create -f environment.yml
+$cd VISPR-online
+$conda env create -f environment.yml
 ```
 Then, activate the environment by running
 ```
-conda activate vispr-online
+$conda activate vispr-online
 ```
 conda activate and conda deactivate only work on conda 4.6 and later versions. For conda versions prior to 4.6, run:
 
