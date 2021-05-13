@@ -5,8 +5,9 @@ VISPR-online is a web-based interactive framework for CRISPR screens visualizati
 1. [Description](#Description)
 2. [Installation](#Installation)
 3. [Demo Test](#Demo)
-4. [License](#License)
-5. [Contact](#Contact)
+4. [FAQs](#FAQs)
+5. [License](#License)
+6. [Contact](#Contact)
 
 <a name="Description"></a>
 I. Description
@@ -45,7 +46,8 @@ On the terminal or an Anaconda Prompt, you can create an isolated software envir
 $cd VISPR-online
 $conda env create -f ./environment.yml
 ```
-If ResolvePackageNotFound:- pandas==0.19.1[Step3](#Step3)
+Note:
+If the error *ResolvePackageNotFound:-pandas==0.19.1* is reported，please skip to *[FAQs](#FAQs)* setup.
 
 Then, activate the environment by running
 ```
@@ -64,9 +66,6 @@ $source activate vispr-online
 ``` 
 
 For detailed manual of miniconda, please refer to https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
-
-### Step3:
-
 
 III. Demo test
 ----
