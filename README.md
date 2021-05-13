@@ -41,7 +41,7 @@ Do you wish the installer to prepend the Miniconda3 install location to PATH ...
 ```
 Also, make sure that you do not have set the PYTHONPATH environment variable, because it will interfere with the Miniconda setup.
 
-
+### Step3:
 On the terminal or an Anaconda Prompt, you can create an isolated software environment for vispr-online by executing:
 ```
 $cd VISPR-online
@@ -51,8 +51,7 @@ Note:
 
 If the error *ResolvePackageNotFound:-pandas==0.19.1* is reported，please skip to *[FAQs](#FAQs)* setup.
 
-
-
+### Step4:
 Then, activate the environment by running
 ```
 $conda activate vispr-online
