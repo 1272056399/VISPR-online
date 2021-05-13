@@ -47,9 +47,7 @@ On the terminal or an Anaconda Prompt, you can create an isolated software envir
 $cd VISPR-online
 $conda env create -f ./environment.yml
 ```
-Note:
-
-If the error *ResolvePackageNotFound:-pandas==0.19.1* is reported，please skip to *[FAQs](#FAQs)* setup.
+Note:If the error *ResolvePackageNotFound:-pandas==0.19.1* is reported，please skip to *[FAQs](#FAQs)* setup.
 
 ### Step4:
 Then, activate the environment by running
@@ -105,6 +103,8 @@ A test dataset is contained in VISPR-online repository. The path is ```VISPR-onl
 Upload corresponding files to VISPR-online. Then click the "Submit" button to explore the results. The results pages are like this.
 
 ![](vispr_screen/static/img/result_view.jpg)  
+
+IV. FAQs
 
 <a name="License"></a>
 License
